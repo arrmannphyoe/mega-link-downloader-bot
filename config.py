@@ -1,13 +1,13 @@
 import os
 
 class Config(object):
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") # Make a bot from https://t.me/BotFather and enter the token here
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6474300325:AAGXpQcC3mLirpsDLY1Dmqh1WbUBi-N-XT0") # Make a bot from https://t.me/BotFather and enter the token here
     #If deploying on vps edit the above value as example := TG_BOT_TOKEN = "Your-bot-token-inside-inverted-commas."
     
-    APP_ID = int(os.environ.get("APP_ID", 12345)) # Get this value from https://my.telegram.org/apps
+    APP_ID = int(os.environ.get("APP_ID", 5469675)) # Get this value from https://my.telegram.org/apps
     #If deploying on vps edit the above value as example := APP_ID = Your-APP_ID-without-inverted-commas
     
-    API_HASH = os.environ.get("API_HASH", "") # Get this value from https://my.telegram.org/apps
+    API_HASH = os.environ.get("API_HASH", "ac30752215eb56e7c95c3a008ed37f33") # Get this value from https://my.telegram.org/apps
     #If deploying on vps edit the above value as example := API_HASH = "Your-API_HASH-inside-inverted-commas."
     
     Mega_email = os.environ.get("Mega_email", "None") # This is not necessary! Enter your mega email only if you have a mega.nz account with pro/business features.
@@ -16,10 +16,10 @@ class Config(object):
     Mega_password = os.environ.get("Mega_password", "None") # This is not necessary! Enter your mega password only if you have a mega.nz account with pro/business features.
     #If deploying on vps edit the above value as example := Mega_password = "Your-Mega_password-inside-inverted-commas."
     
-    Bot_username = os.environ.get("Bot_username", "") # Your bot's telegram username (must enter with '@' in the front of the username)
+    Bot_username = os.environ.get("Bot_username", "@my_mega_downloader_bot") # Your bot's telegram username (must enter with '@' in the front of the username)
     #If deploying on vps edit the above value as example := Bot_username = "Your-Bot_username-inside-inverted-commas."
     
-    OWNER_ID = os.environ.get("OWNER_ID", None) # Your(owner's) telegram id
+    OWNER_ID = os.environ.get("OWNER_ID", @arrmannphyoe) # Your(owner's) telegram id
     #If deploying on vps edit the above value as example := OWNER_ID = Your-telegram id-without-inverted-commas
     
     REDIS_URI = os.environ.get("REDIS_URI", None) # Get This Value from http://redislabs.com/try-free (If you don't know how to obtain the a video tutorial is available here:- https://t.me/botzupdate/5)
