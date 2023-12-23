@@ -19,7 +19,7 @@ class Config(object):
     Bot_username = os.environ.get("Bot_username", "@my_mega_downloader_bot") # Your bot's telegram username (must enter with '@' in the front of the username)
     #If deploying on vps edit the above value as example := Bot_username = "Your-Bot_username-inside-inverted-commas."
     
-    OWNER_ID = os.environ.get("OWNER_ID", @arrmannphyoe) # Your(owner's) telegram id
+    OWNER_ID = os.environ.get("OWNER_ID", arrmannphyoe) # Your(owner's) telegram id
     #If deploying on vps edit the above value as example := OWNER_ID = Your-telegram id-without-inverted-commas
     
     REDIS_URI = os.environ.get("REDIS_URI", redis-13786.c322.us-east-1-2.ec2.cloud.redislabs.com:13786) # Get This Value from http://redislabs.com/try-free (If you don't know how to obtain the a video tutorial is available here:- https://t.me/botzupdate/5)
@@ -28,7 +28,7 @@ class Config(object):
     REDIS_PASS = os.environ.get("REDIS_PASS", 8tssMUooHH1cA73LwA4P6VfFXmqa3D3u ) # Get This Value from http://redislabs.com/try-free (If you don't know how to obtain the a video tutorial is available here:- https://t.me/botzupdate/5)
     #If deploying on vps edit the above value as example := REDIS_PASS = "Your-Redis-Password-inside-inverted-commas."
 
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "@arrmannphyoe").split()) # Id's of the telegram users, who you want to allow for multitasking - downloading multiple links at once!
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "arrmannphyoe").split()) # Id's of the telegram users, who you want to allow for multitasking - downloading multiple links at once!
     
     #If deploying on heroku separate the ids by space. (don't put commas. Only separate each of the id's with space)
     
